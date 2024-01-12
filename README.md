@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# SpaceVue Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SpaceVue is a dashboard application for monitoring recent space missions. It displays space mission data, including mission names, launch companies, locations, dates, times, rocket types, prices, and mission outcomes.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Core Tasks](#core-tasks)
+- [Technical Requirements](#technical-requirements)
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Running the Application](#running-the-application)
+- [Additional Information](#additional-information)
 
-### `npm start`
+## Core Tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Design Mockup:**
+    - A low-fidelity mockup of the dashboard showing the placement of the AG-Grid table and charts (pie and bar charts recommended).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Development:**
+    - Implement a mock login page with a simple form and hardcoded login functionality.
+    - Build a dashboard with React that uses AG-Grid to display the space missions in a tabular format.
+    - Create at least one chart displaying data from the missions (for example, a pie chart showing the proportion of successful missions).
 
-### `npm test`
+## Technical Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js for frontend development.
+- AG-Grid for rendering the table.
+- A charting library like AG-Chart, Chart.js, or Recharts for creating charts.
+- Fetch and display the provided data with mock API fetching using static data.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to set up and run the SpaceVue dashboard locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone 
+   cd spacevue-dashboard
 
-### `npm run eject`
+## Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    `npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    `nom start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Additional Information
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Link to the Figma Design [Design](https://www.figma.com/file/DPW1CJZJbMcy3lz5i3Lf45/SpaceVue?type=design&node-id=0%3A1&mode=design&t=2YtLxNQVWn6Iu7m7-1)

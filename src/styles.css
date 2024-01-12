@@ -1,0 +1,204 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.chart-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Loader styles */
+.container > div {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .chart-container {
+    width: 100%;
+  }
+}
+
+/* Chart styles */
+.PieChart,
+.BarChart {
+  margin: 0 auto;
+}
+
+/* Table styles */
+.table-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.ag-theme-alpine {
+  height: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ag-theme-alpine .ag-header {
+  background-color: #f2f2f2;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  font-weight: bold;
+}
+
+.ag-theme-alpine .ag-cell {
+  padding: 8px;
+  text-align: left;
+}
+
+.ag-theme-alpine .ag-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.ag-theme-alpine .ag-row:last-child {
+  border-bottom: none;
+}
+
+.ag-theme-alpine .ag-pagination {
+  margin-top: 10px;
+}
+
+/* custom-ag-grid-styles.css */
+
+/* Optional: Customize the overall grid appearance */
+.ag-theme-alpine {
+  font-family: "Arial", sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Customize the header appearance */
+.ag-theme-alpine .ag-header {
+  background-color: #f2f2f2;
+}
+
+/* Optional: Customize the header cell appearance */
+.ag-theme-alpine .ag-header-cell {
+  font-weight: bold;
+}
+
+/* Optional: Customize the cell appearance */
+.ag-theme-alpine .ag-cell {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Optional: Customize the row appearance */
+.ag-theme-alpine .ag-row {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Optional: Remove bottom border for the last row */
+.ag-theme-alpine .ag-row:last-child {
+  border-bottom: none;
+}
+
+/* Optional: Add spacing to the pagination */
+.ag-theme-alpine .ag-pagination {
+  margin-top: 10px;
+}
+
+/* Make the page take up the entire height */
+html,
+body,
+#root {
+  height: 100%;
+}
