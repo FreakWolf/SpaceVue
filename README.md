@@ -35,7 +35,7 @@ Follow these steps to set up and run the SpaceVue dashboard locally:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/FreakWolf/SpaceVue.git
    cd spacevue-dashboard
 
 ## Dependencies
