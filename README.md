@@ -36,7 +36,7 @@ Follow these steps to set up and run the SpaceVue dashboard locally:
 
    ```bash
    git clone https://github.com/FreakWolf/SpaceVue.git
-   cd spacevue-dashboard
+   cd SpaceVue
 
 ## Dependencies
 
@@ -48,4 +48,4 @@ Follow these steps to set up and run the SpaceVue dashboard locally:
 
 ## Additional Information
 
-    Link to the Figma Design [Design](https://www.figma.com/file/DPW1CJZJbMcy3lz5i3Lf45/SpaceVue?type=design&node-id=0%3A1&mode=design&t=2YtLxNQVWn6Iu7m7-1)
+    Link to the Design [Design](https://www.figma.com/file/DPW1CJZJbMcy3lz5i3Lf45/SpaceVue?type=design&node-id=0%3A1&mode=design&t=2YtLxNQVWn6Iu7m7-1)
